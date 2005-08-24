@@ -1,0 +1,299 @@
+# PloneRadio
+# Wolfgang Reutz <wolfgang.reutz@fh-vorarlberg.ac.at>.
+msgid ""
+msgstr ""
+"Project-Id-Version: PloneRadioTool\n"
+"POT-Creation-Date: 2005-02-14 10:55 +0200\n"
+"PO-Revision-Date: 2005-02-14 10:55 +0200\n"
+"Last-Translator: Wolfgang Reutz <wolfgang.reutz@fh-vorarlberg.ac.at>\n"
+"Language-Team: Wolfgang Reutz <wolfgang.reutz@fh-vorarlberg.ac.at>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: PloneRadio\n"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <input class="context" i18n:attributes="value" name="form.button.Save" tabindex="" tal:attributes="tabindex tabindex/next;" type="submit" value="Save"/>
+msgid "Save"
+msgstr ""
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <p i18n:translate="description_ploneradio_preferences">
+#. 	  Setting up stream details and enable/disable log file analysis.
+#. </p>
+msgid "description_ploneradio_preferences"
+msgstr "Setting up stream details and enable/disable log file analysis."
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <h1 i18n:translate="heading_ploneradio_preferences">
+#.       PloneRadio preferences
+#. </h1>
+msgid "heading_ploneradio_preferences"
+msgstr "PloneRadio preferences"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_loganalysis_album_url">
+#. 		        If you want to display the album cover for the currently playing track, enter the URL to the graphics file here. This URL can be relative or absolute.
+#.  <br/>
+#. 		        (leave empty if you don't want to display the cover art)
+#. </div>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "help_ploneradioprefs_loganalysis_album_url"
+msgstr "If you want to display the album cover for the currently playing track, enter the URL to the graphics file here. This URL can be relative or absolute. <br/> (leave empty if you don't want to display the cover art)"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_loganalysis_enable">
+#. 		        Check if you want to analyse the logfiles / statuspage of your streamingserver to provide info about the current / recent playing tracks or want to display the album art of the currently playing track. Works with Nicecast and Icecast2 streaming server.
+#. </div>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "help_ploneradioprefs_loganalysis_enable"
+msgstr "Check if you want to analyse the logfiles / statuspage of your streamingserver to provide info about the current / recent playing tracks or want to display the album art of the currently playing track. Works with Nicecast and Icecast2 streaming server."
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_loganalysis_history_url">
+#. 		        Enter the URL to the playlist logfile (absolute or relative)
+#. </div>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "help_ploneradioprefs_loganalysis_history_url"
+msgstr "Enter the URL to the playlist logfile (absolute or relative)"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_loganalysis_showlisteners">
+#. 		        Will be ignored for Nicecast logfiles!
+#. </div>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "help_ploneradioprefs_loganalysis_showlisteners"
+msgstr "Will be ignored for Nicecast logfiles!"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_loganalysis_type">
+#. 		        Select the type of streamingserver or streamingserver source you are using. If you use Nicecast as your source, select &quot;nicecast&quot;. If your source doesn't support playlist logging but you are using this source with an Icecast2 streamingserver and installed the &quot;ploneradio_current.xsl&quot; Stylesheet in the web directory of Icecast2, select &quot;icecast2&quot;.
+#. </div>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "help_ploneradioprefs_loganalysis_type"
+msgstr "Select the type of streamingserver or streamingserver source you are using. If you use Nicecast as your source, select &quot;nicecast&quot;. If your source doesn't support playlist logging but you are using this source with an Icecast2 streamingserver and installed the &quot;ploneradio_current.xsl&quot; Stylesheet in the web directory of Icecast2, select &quot;icecast2&quot;."
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_loganalysis_url">
+#. 		        Enter the URL to the logfile of the 20 last played songs of Nicecast (http://server/recentTracks.log) or the URL for the PloneRadio status page of Icecast2 server (http://server:8000/ploneradio_current.xsl)
+#. </div>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "help_ploneradioprefs_loganalysis_url"
+msgstr "Enter the URL to the logfile of the 20 last played songs of Nicecast (http://server/recentTracks.log) or the URL for the PloneRadio status page of Icecast2 server (http://server:8000/ploneradio_current.xsl)"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_name">
+#. 	        Enter the name for the stream (e.g. Channel 1).
+#. </div>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "help_ploneradioprefs_name"
+msgstr "Enter the name for the stream (e.g. Channel 1)."
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_url">
+#. 	        Enter the URL for the stream e.g. http://streamingserver.org:8000/mountpoint
+#. </div>
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_url">
+#. 	        Enter the URL for the stream e.g. http://streamingserver.org:8000/mountpoint
+#.  <br/>
+#. 	        (leave empty if you use only one stream)
+#. </div>
+## 2 more: skins/PloneRadio/prefs_ploneradio.pt, skins/PloneRadio/prefs_ploneradio.pt
+msgid "help_ploneradioprefs_url"
+msgstr "Enter the URL for the stream e.g. http://streamingserver.org:8000/mountpoint"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <div class="formHelp" i18n:translate="help_ploneradioprefs_url_remarks">
+#. 	        If you have two qualities of your stream, provide some information about the quality like &quot;high&quot;, &quot;low&quot;, &quot;broadband&quot;, &quot;modem&quot;, &quot;128 kps Stereo&quot;,...
+#.  <br/>
+#. 	        (leave empty if no info should be displayed)
+#. </div>
+## 3 more: skins/PloneRadio/prefs_ploneradio.pt, skins/PloneRadio/prefs_ploneradio.pt, skins/PloneRadio/prefs_ploneradio.pt
+msgid "help_ploneradioprefs_url_remarks"
+msgstr "If you have two qualities of your stream, provide some information about the quality like &quot;high&quot;, &quot;low&quot;, &quot;broadband&quot;, &quot;modem&quot;, &quot;128 kps Stereo&quot;,... <br/> (leave empty if no info should be displayed)"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_enable">
+#.  Stream enabled
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_enable"
+msgstr "Stream enabled"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_loganalysis_album_url">
+#.  URL of the album art file
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_loganalysis_album_url"
+msgstr "URL of the album art file"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_loganalysis_enable">
+#.  Enable logfile analysis?
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_loganalysis_enable"
+msgstr "Enable logfile analysis?"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_loganalysis_history_songstolist">
+#.  Number of songs to list in playlist history
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_loganalysis_history_songstolist"
+msgstr "Number of songs to list in playlist history"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_loganalysis_history_type">
+#.  Type of playlist logfile to use for display of playlist history
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_loganalysis_history_type"
+msgstr "Type of playlist logfile to use for display of playlist history"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_loganalysis_history_url">
+#.  URL for playlist logfile
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_loganalysis_history_url"
+msgstr "URL for playlist logfile"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_loganalysis_recentsongstolist">
+#.  Number of recent songs to list in Portlet
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_loganalysis_recentsongstolist"
+msgstr "Number of recent songs to list in Portlet"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_loganalysis_showlisteners">
+#.  Show the number of currently listening users?
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_loganalysis_showlisteners"
+msgstr "Show the number of currently listening users?"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_loganalysis_type">
+#.  Streamingserver
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_loganalysis_type"
+msgstr "Streamingserver"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_loganalysis_url">
+#.  Logfile for current / recent songs
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_loganalysis_url"
+msgstr "Logfile for current / recent songs"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_name">
+#.  Name
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_name"
+msgstr "Name"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_url1">
+#.  URL for first quality stream
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_url1"
+msgstr "URL for first quality stream"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_url2">
+#.  URL for second quality stream
+#. </label>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_url2"
+msgstr "URL for second quality stream"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <label i18n:translate="label_ploneradioprefs_url_remarks">
+#.  Remarks about the quality of the stream
+#. </label>
+## 3 more: skins/PloneRadio/prefs_ploneradio.pt, skins/PloneRadio/prefs_ploneradio.pt, skins/PloneRadio/prefs_ploneradio.pt
+msgid "label_ploneradioprefs_url_remarks"
+msgstr "Remarks about the quality of the stream"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <legend i18n:translate="legend_ploneradioprefs_log">
+#.  Display of current / recent songs, album art, history
+#. </legend>
+## 1 more: skins/PloneRadio/prefs_ploneradio.pt
+msgid "legend_ploneradioprefs_log"
+msgstr "Display of current / recent songs, album art, history"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <legend i18n:translate="legend_stream1">
+#.  Stream 1
+#. </legend>
+msgid "legend_stream1"
+msgstr "Stream 1"
+
+
+#: skins/PloneRadio/prefs_ploneradio.pt
+#. <legend i18n:translate="legend_stream2">
+#.  Stream 2
+#. </legend>
+msgid "legend_stream2"
+msgstr "Stream 2"
+
+
+#: ../skins/PloneRadio/portlet_ploneradio.pt
+#. <span i18n:translate="text_listenplugin" omit-tag="">listen with plugin:<span>
+msgid "text_listenplugin"
+msgstr "listen with plugin:"
+
+
+#: ../skins/PloneRadio/portlet_ploneradio.pt
+#. <span i18n:translate="text_nowplaying" omit-tag="">now playling:</span>
+msgid "text_nowplaying"
+msgstr "now playling:"
+
+
+#: ../skins/PloneRadio/portlet_ploneradio.pt
+#. <span i18n:translate="text_recentlyplayed" omit-tag="">recent tracks:</span>
+msgid "text_recentlyplayed"
+msgstr "recent tracks:"
